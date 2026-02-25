@@ -1,8 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: {{name}}
+  name: my-app
+  description: My sample application
+  annotations:
+    github.com/project-slug: devthink1/backstage
 spec:
   type: service
-  lifecycle: production
-  owner: {{owner}}
+  lifecycle: experimental
+  owner: user:default/guest
