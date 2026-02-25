@@ -5,6 +5,7 @@ metadata:
   description: My sample application
   annotations:
     github.com/project-slug: devthink1/backstage
+    github.com/workflows: ci.yml
 spec:
   type: service
   lifecycle: experimental
